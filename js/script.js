@@ -1,4 +1,5 @@
-// concatenation 
+// Concatenation 
+
 document.getElementById("some-string").onclick = function () {
 
     let message = "Have a nice day"
@@ -9,7 +10,8 @@ document.getElementById("some-string").onclick = function () {
     document.getElementById("output").innerHTML = sum;
 }
 
-// ask name from user 
+// Ask Name From User 
+
 document.getElementById("user").onclick = function(){
     let firstName = prompt("please enter your first name")
     let lastName = prompt("please enter your last name")
@@ -18,7 +20,8 @@ document.getElementById("user").onclick = function(){
     document.getElementById("output").innerHTML = `full name = ${fullName}`
 }
 
-// comparison operator 
+// Comparison Operator 
+
 document.getElementById("operate").onclick = function (){
 
     let num1 = +prompt("please enter first number")
@@ -33,7 +36,8 @@ document.getElementById("operate").onclick = function (){
     }
 }
 
-// if else if
+// If Else If
+
 document.getElementById("if-else").onclick = function (){
     document.getElementById("statement").innerHTML = " ";
     let marks = +prompt("please enter your marks")
@@ -52,7 +56,8 @@ document.getElementById("if-else").onclick = function (){
 }
 
 
-// sets of conditions 
+// Sets Of Conditions 
+
 document.getElementById("test").onclick = function (){
     document.getElementById("statement").innerHTML = " ";
     let age = prompt("please enter your age")
@@ -75,7 +80,8 @@ document.getElementById("test").onclick = function (){
 
 }
 
-// if statement nested 
+// If Statement Nested 
+
 document.getElementById("nest").onclick = function(){
     let userName = prompt("please enter user name")
     if(userName === "Waqar"){
@@ -93,7 +99,8 @@ document.getElementById("nest").onclick = function(){
 }
 
 
-// login 
+// Login 
+
 document.getElementById("login").onclick = function (){
     document.getElementById("statement").innerHTML = " ";
     let userName = prompt("please enter username")
@@ -113,12 +120,14 @@ document.getElementById("check").onclick = function(){
     document.getElementById("output").innerHTML = "Click Here To Check All Buttons."
 }
 
-// clear input box 
+// Clear Input Box 
+
 document.getElementById("clearstatement").onclick = function(){
     document.getElementById("statement").innerHTML = " ";
 }
 
-// clear output box 
+// Clear Output Box 
+
 document.getElementById("clearoutput").onclick = function(){
     document.getElementById("output").innerHTML = " ";
 }
