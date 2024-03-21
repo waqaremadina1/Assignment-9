@@ -83,7 +83,7 @@ document.getElementById("test").onclick = function (){
 // If Statement Nested 
 
 document.getElementById("nest").onclick = function(){
-    let userName = prompt("please enter user name")
+    let userName = prompt("please enter username")
     if(userName === "Waqar"){
         let password = prompt("please enter password")
         if(password == 123){
@@ -94,7 +94,7 @@ document.getElementById("nest").onclick = function(){
         }
     }
     else{
-        document.getElementById("output").innerHTML = `<span class='text-danger'>${userName} </span> is incorrect user name. <br> correct user name is <span class='text-success'> "Waqar"</span>`
+        document.getElementById("output").innerHTML = `<span class='text-danger'>${userName} </span> is incorrect username. <br> correct user name is <span class='text-success'> "Waqar"</span>`
     }
 }
 
